@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="compartir.unitec.org.compartir.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:text="Escribe un mensaje y oprime el boton compartir"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Escribe tu mensaje"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Compartir"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
